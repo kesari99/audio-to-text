@@ -2,7 +2,7 @@
 
 A React-based application that uses AssemblyAI to record, transcribe, and summarize spoken audio.
 
-![App Screenshot](https://via.placeholder.com/800x400?text=Audio+Transcription+App)
+![App Screenshot](https://github.com/user-attachments/assets/92a5a989-7ef4-4875-8b17-9021197e4e82)
 
 ## Features
 
@@ -80,8 +80,8 @@ This application leverages the following AssemblyAI endpoints:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/audio-transcription-app.git
-   cd audio-transcription-app
+   git clone https://github.com/kesari99/audio-to-text.git
+   
    ```
 
 2. Install dependencies:
@@ -92,7 +92,7 @@ This application leverages the following AssemblyAI endpoints:
 
 3. Create a `.env` file in the client directory:
    ```
-   REACT_APP_ASSEMBLY_API_KEY=your_assemblyai_api_key
+   VITE_ASSEMBLY_API_KEY=your_assemblyai_api_key
    ```
 
 4. Start the development server:
@@ -100,7 +100,7 @@ This application leverages the following AssemblyAI endpoints:
    npm start
    ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser
+5. Open [http://localhost:5137](http://localhost:5137) in your browser
 
 ## Usage
 
@@ -114,13 +114,6 @@ This application leverages the following AssemblyAI endpoints:
    - Display the transcribed text in the Transcriptions card
    - Generate and display a summary (for longer recordings)
 
-## Configuration Options
-
-You can modify the following aspects of the transcription process:
-
-- **Speech Model**: Change `speech_model: 'universal'` to `speech_model: 'default'` for standard transcription
-- **Summary Type**: Change `summary_type: 'bullets'` to `summary_type: 'paragraph'` for paragraph-style summaries
-- **Summary Model**: Change `summary_model: 'informative'` to `summary_model: 'conversational'` for more casual summaries
 
 ## Security Notes
 
@@ -128,17 +121,7 @@ You can modify the following aspects of the transcription process:
 - In a production environment, implement a server-side proxy to make API calls
 - Consider implementing rate limiting to avoid excessive API usage
 
-## Future Enhancements
 
-- Real-time transcription using WebSockets
-- Support for multiple languages
-- Speaker diarization for multi-person recordings
-- Topic detection and entity recognition
-- Export options (PDF, Word, etc.)
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
