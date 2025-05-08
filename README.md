@@ -1,8 +1,8 @@
 # Audio Transcription App
 
 A React-based application that uses AssemblyAI to record, transcribe, and summarize spoken audio.
+![Screenshot (182)](https://github.com/user-attachments/assets/dc726047-ee7b-434d-a536-61daf97645fc)
 
-![App Screenshot](https://github.com/user-attachments/assets/92a5a989-7ef4-4875-8b17-9021197e4e82)
 
 ## Features
 
